@@ -12,6 +12,7 @@ import java.time.LocalDateTime;
 @Setter
 
 public class Posts {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
