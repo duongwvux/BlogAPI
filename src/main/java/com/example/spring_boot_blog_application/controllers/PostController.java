@@ -38,6 +38,7 @@ public class PostController {
 
     }
 
+
     @GetMapping("/posts/new")
     public String crateNewPost(Model model){
         Optional<Account> optionalAccount = accountService.findByEmail("user.user@domain.com");
